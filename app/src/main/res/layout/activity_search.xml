@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lipnus.gleam.MypageActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/search_background"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginTop="90dp"
+            android:onClick="onClick_voice"/>
+
+        <EditText
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            android:id="@+id/search_et"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:textColor="#140e0e"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:textColorHint="#a1a0a0"
+            android:hint="Search..."
+            android:textSize="15dp"
+            android:background="@null"
+            />
+
+
+
+    </FrameLayout>
+
+</LinearLayout>
